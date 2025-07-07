@@ -1,0 +1,58 @@
+/* div 안의 p 태그들 중 첫번째 */
+div > p:first-child {
+    color: red;
+}
+
+/* : 사이 띄어쓰기 하면 안됨 */
+div > p:last-child {
+    color: blue;
+}
+
+/* 번호 지정 */
+/* 다른 태그가 중간에 있어도 제외된 순번으로 처리 */
+div > h3:nth-of-type(odd) {
+    color: red;
+}
+
+/* 다른 태그가 중간에 있으면 포함된 순번으로 처리 */
+div > h3:nth-child(even) {
+    color: blue;
+}
+
+
+#outer > h4:nth-child(5) {
+    color: red;
+}
+/* 기본 상태 - 페이지를 방문하지 않았을때 */
+a:link {
+    color: aqua;
+}
+/* */
+a:visited {
+    color: red;
+}
+/* 마우스커서 올려두면 */
+a:hover {
+    color: blueviolet;
+}
+/* 마우스로  클릭했을때*/
+a:active {
+    color: burlywood;
+}
+/* 포커스를 했을때 */
+a:focus {
+    color: cornflowerblue
+}
+/* 깜빡거릴때 색깔 */
+input:focus {
+    background: skyblue;
+}
+/* 플레이스홀더의 미리보기 색깔 */
+input::placeholder {
+    color: crimson;
+}
+
+p::selection {
+    color:rgb(231, 231, 231);
+    background: gray;
+}
