@@ -1,0 +1,21 @@
+ ol {
+    list-style-type: lower-roman;
+    /* background-color: skyblue; */
+ }
+ ul > li { 
+    /* list-style-type: none;
+    background-image: url(../../images/pepe.jpg);
+    list-style-image: url("../../images/pepe.jpg");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: left center;
+    margin: 0;
+    padding: 20px 0 20px 10px; */
+}
+li{
+    /* background-color: greenyellow; */
+}
+ul {
+    list-style-position: inside;
+    list-style: square;
+}

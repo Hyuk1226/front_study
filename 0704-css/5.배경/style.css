@@ -1,0 +1,25 @@
+body {
+    background-image: url("../../images/kakaofriends.gif");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center center;
+    height: 3000px;
+    background-attachment: fixed;
+
+    background: skyblue
+                url("../../images/kakaofriends.gif")
+                no-repeat center center fixed 200px;
+
+    /* background: linear-gradient(to right bottom,blue,pink); */
+    background: radial-gradient(circle, skyblue, yellowgreen);
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+h1 {
+    background-color: #ff8081;
+}
+p {
+    background-color: rgb(255, 100, 25);
+}
+.bg {
+    background-color: rgba(100, 255, 50, 0.3);
+}

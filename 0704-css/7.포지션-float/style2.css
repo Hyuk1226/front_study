@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: red;
+    height: 100px;
+    width: 500px;
+}
+.nav {
+    background-color: aqua;
+    height: 300px;
+    width: 100px;
+    float: left;
+}
+.content {
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+.footer {
+    clear:both;
+    background-color: green;
+    width: 500px;
+    height: 100px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
