@@ -1,30 +1,138 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-.flex1 {
-  display: flex;
-  justify-content: space-between;
+body {
+  width: 1200px;
+  margin: auto;
 }
 
-.flex1 > img {
-  width: 80px;
+.logo > img {
+  height: 30px;
+  margin-right: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-nav > ul > li {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  /* 글씨 너비 벌리기 */
+  padding-right: 30px;
 }
 
 a {
-  text-decoration: none;
+  color: black;
 }
 
-.input1 {
-  width: 200px;
-  height: 25px;
-  background: rgb(218, 218, 218);
+.carrot-color {
+  color: #ff8a3d;
 }
-.input2 {
-  width: 80px;
-  height: 25px;
+
+.left-menu, .right-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="search"] {
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-light {
+  border: 1px solid lightgray;
   background: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  position: fixed;
+  top: 0;
+  /* height: 50px; */
+  width: 1200px;
+  overflow: auto;
+  padding: 15px;
+}
+
+.right-menu > div:nth-child(1) {
+  margin-right: 15px;
+}
+
+main {
+  margin-top: 70px;
+  width: 100%;
+  border-bottom: 1px solid lightblue;
+}
+
+#article-top h1, #article-bottom h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#article-top {
+  background: #fbf7f2;
+  padding-left: 30px;
+}
+
+#article-bottom {
+  background: white;
+}
+
+.btn-dark {
+  background: lightgray;
+}
+
+#article-bottom p {
+  margin-bottom: 30px;
+}
+
+footer > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+footer li {
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > div:nth-child(2) {
+  margin: 20px;
+}
+
+footer h5 {
+  padding: 15px 0;
 }
