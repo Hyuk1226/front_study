@@ -1,0 +1,12 @@
+.alert-box {
+  background: skyblue;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: none;
+}
+
+.alert {
+  background: aqua;
+  height: 100px;
+}
